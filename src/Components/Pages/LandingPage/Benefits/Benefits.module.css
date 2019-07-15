@@ -1,0 +1,53 @@
+.Benefits {
+    background-color: white;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    width: 11%;
+    height: 100px;
+    padding: 2%;
+    border-radius: 20px;
+    margin-left: 5%;
+    opacity: 0.90;
+    display: inline-block;
+}
+.CompanyMission {
+    align-content: center;
+    background-color: white;
+    float: left;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    width: 70%;
+    height: 80px;
+    padding: 2%;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+@media(max-width: 1000px) {
+    .BenefitsText {
+        display: none;
+    }
+
+    .BenefitsImage {
+        margin: auto;
+        width: 60%;
+        height: 60%;
+        margin-top: 15%;
+    }
+    .CompanyMission {
+        height: 100px;
+    }
+}
+
+@media(max-width: 500px) {
+    .CompanyMission {
+        height: 180px;
+    }
+}
+@media(max-width: 300px) {
+    .CompanyMission {
+        height: 250px;
+    }
+}

@@ -1,0 +1,79 @@
+.Image {
+    width: 60%;
+    display: inline-block;
+    margin-right: 3%;
+    border-radius: 15px;
+    height: 100%;
+    vertical-align: middle
+}
+.CarText {
+    width: 35%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.Wrapper {
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    margin: 1%;
+    height: 15rem;
+    width: 40%;
+    display: inline-block;
+}
+.Wrapper:hover {
+    transform: scale(1.05);
+    background-color: lightpink;
+    cursor: pointer;
+}
+.ReserveButton {
+    background-color: goldenrod;
+    border: 1px solid bisque;
+    color: white;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 1%;
+    cursor: pointer;
+}
+.DeleteButton {
+    background-color: darkred;
+    border: 1px solid bisque;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 1%;
+    cursor: pointer;
+}
+.SaveButton {
+    background-color: green;
+    border: 1px solid bisque;
+    color: white;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 1%;
+    cursor: pointer;
+}
+.Input {
+    width: 60%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: table;
+    align-content: center;
+    margin: auto;
+    margin-top: 2%;
+}
+.HiddenCar {
+    display: none;
+}

@@ -1,0 +1,77 @@
+.AdminView {
+    margin: 18%;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 30px;
+}
+.Input {
+    width: 60%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: table;
+    align-content: center;
+    margin: auto;
+    margin-top: 2%;
+}
+.SignupButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 3%;
+    cursor: pointer;
+}
+.ModifyButton {
+    background-color: orange;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 3%;
+    cursor: pointer;
+}
+.ModifyCarButton {
+    background-color: green;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 3%;
+    cursor: pointer;
+}
+.AdminImage {
+    width: 50%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+}
+.Text {
+    padding-top: 3%;
+    width: 50%;
+    margin-left: 24%;
+}
+.Car {
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    opacity: 0.9;
+    padding: 1%;
+    border-radius: 30px;
+    display: inline-block;
+}
+.CarList {
+    margin-left: 0%;
+    width: 80%;
+    margin-left: 9%;
+    margin-bottom: 5%;
+}

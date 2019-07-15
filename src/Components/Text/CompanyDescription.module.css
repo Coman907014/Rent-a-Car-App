@@ -1,0 +1,12 @@
+.CompanyDescription {
+    color: black;
+    opacity: 1;
+}
+.CompanyDescriptionLogged {
+    color: burlywood;
+    opacity: 1;
+    text-decoration: underline;
+}
+.HelloImage {
+    width: 30%
+}

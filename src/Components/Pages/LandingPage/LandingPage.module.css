@@ -1,0 +1,52 @@
+.CompanyDescription {
+    margin-top: 4%;
+    background-color: white;
+    opacity: 0.9;
+    width: 60%;
+    margin-left: 19%;
+    padding: 1%;
+    border-radius: 150px;
+}
+
+.CarList {
+    background-color: white;
+    float: right;
+    width: 100%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    margin-left: 5%;
+    opacity: 0.95;
+}
+.MainImage {
+  width: 60%;
+  margin-left: 18%;
+  margin-right: 18%;
+  opacity: 0.9;
+  margin-bottom: 2%;
+  border-radius: 30px;
+  border: 2 px solid gray
+}
+
+
+@media(min-width: 1500px) {
+    .CarList {
+      width: 80%;
+      margin-right: 8%;
+      animation: Car-Switch-Screen 0.3s ease-out;
+    }
+  }
+
+.MainContent {
+    margin-top: 5%;
+  }
+  @media(max-width: 1000px) {
+    .CompanyDescription {
+      border-radius: 80px;
+      margin-top: 8%;
+    }
+  }
+  @media(max-width: 600px) {
+    .CompanyDescription {
+      margin-top: 10%;
+    }
+  }

@@ -1,0 +1,50 @@
+.Wrapper {
+    margin-top: 3px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding-top: 3px;
+    background-color: salmon;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+.DisplayInline {
+    margin: auto;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.Dates {
+    color: whitesmoke;
+}
+.Edit {
+    width: 5%;
+    float: right;
+    margin: 2%;
+    border: 2 px solid white;
+    cursor: pointer;
+}
+.Delete {
+    width: 5%;
+    float: right;
+    margin: 2%;
+    margin-right: none;
+    border: 2 px solid white;
+    cursor: pointer;
+}
+.InputDate {
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px
+}
+.Edit:hover,
+.Delete:hover {
+    transform: scale(1.1);
+    background-color: red;
+    border-radius: 5px;
+}
+.Image {
+    width: 60%
+}

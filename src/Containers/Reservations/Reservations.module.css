@@ -1,0 +1,58 @@
+.Wrapper {
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.9;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.InputDate {
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px
+}
+.InputText {
+    padding-top: 1%;
+    margin: auto;
+}
+.ReservationButton {
+    margin-top: 3%;
+    margin-left: 35%;
+    box-sizing: border-box;
+    display: block;
+    width: 30%;
+    height: 25%;
+    list-style-type: none;
+    border: 1px solid burlywood;
+    background-color: gray;
+    border-bottom: 3px solid #284358;
+    border-radius: 10px;
+    align-content: center;
+    cursor: pointer
+}
+.DisplayInline {
+    display: inline-block;
+    margin: auto;
+    padding-left: 30px;
+}
+.ImageSuccess {
+    border: 2px solid lightblue;
+    box-shadow: 4px 4px greenyellow;
+}
+
+.Res {
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.9;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding-bottom: 50px;
+}
